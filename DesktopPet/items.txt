@@ -1,0 +1,45 @@
+Model:
+  [pet]
+    - interface
+      - little angle (my pet)
+      - 修猫涩涩 (maybe in the future)
+  [food]
+    - enum
+    - interface
+      - Abstract food
+        - apple
+        - strawberry
+        - diesel
+        - screwworm
+  [food box]
+    - interface
+      - food box
+      - ice box
+  [toy]
+    - enum
+    - interface
+      - wood
+      - chisel
+      - lego block
+      - NS
+      - power source
+      - violin
+      ......
+  [toy box]
+
+view:
+  [frame]
+  [panel]
+    - basic panel
+    - food panel
+    - toy panel
+
+control:
+  [timers]
+    - food decay
+    - food generator
+    - pet happiness
+    - pet health
+    - pet hunger
+    - pet speak
+  [pet controller]
